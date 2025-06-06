@@ -836,7 +836,7 @@ body {
         font-size: 3rem;
     }
     .hero-image {
-        display: none;
+        display: block;
     }
     .services-grid {
         grid-template-columns: repeat(3, 1fr);
