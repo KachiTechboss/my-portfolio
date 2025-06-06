@@ -279,6 +279,9 @@ projectButtons.forEach(button => {
                 case 'Clipboard page':
                     githubUrl = 'https://github.com/KachiTechboss/clipboard-page';
                     break;
+                case 'Landlord Properties':
+                    githubUrl = 'https://github.com/KachiTechboss/real-estate-demo-site';
+                    break;
             }
             
             showToast('Opening GitHub repository...', 'success');
@@ -309,6 +312,9 @@ projectButtons.forEach(button => {
                     break;
                     case 'Clipboard page':
                     projectUrl = 'https://kachitechboss.github.io/clipboard-page/';
+                    break;
+                    case 'Landlord Properties':
+                    projectUrl = 'https://kachitechboss.github.io/real-estate-demo-site/';
                     break;
             }
             
