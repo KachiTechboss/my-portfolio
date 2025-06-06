@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kachi - Software Developer Portfolio</title>
+    <meta name="description" content="Kachi's Portfolio - Software Developer specializing in modern web applications">
+    <meta name="author" content="Kachi">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="nav-content">
+                <div class="nav-brand"><img class="boy" src="image/boy_with_laptop.avif" alt="boy_with_laptop"></div>
+                
+                <!-- Desktop Navigation -->
+                <div class="nav-desktop">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
+
+                <!-- Mobile menu button -->
+                <div class="nav-mobile-btn">
+                    <button id="mobile-menu-btn" class="mobile-menu-btn">
+                        <svg id="menu-icon" class="menu-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="4" x2="20" y1="6" y2="6"/>
+                            <line x1="4" x2="20" y1="12" y2="12"/>
+                            <line x1="4" x2="20" y1="18" y2="18"/>
+                        </svg>
+                        <svg id="close-icon" class="close-icon hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="m18 6-12 12"/>
+                            <path d="m6 6 12 12"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <div id="mobile-menu" class="mobile-menu hidden">
+                <div class="mobile-menu-links">
+                    <a href="#home" class="mobile-nav-link">Home</a>
+                    <a href="#about" class="mobile-nav-link">About</a>
+                    <a href="#projects" class="mobile-nav-link">Projects</a>
+                    <a href="#contact" class="mobile-nav-link">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Hello<span class="text-orange">.</span>
+                    </h1>
+                    <h2 class="hero-subtitle">
+                        I'm <span class="hero-name">Miracle</span>
+                    </h2>
+                    <h3 class="hero-role">
+                        Frontend Developer<span class="text-orange">.</span>
+                    </h3>
+                </div>
+                
+                <div class="hero-buttons">
+                    <!-- <a href="">WhatsApp Me</a> -->
+                    <a href="https://wa.me/2348057032993" class="btn btn-primary">Contact me</a>
+                    <a href="https://github.com/KachiTechboss" class="btn btn-outline">GitHub</a>
+         
+                    <!-- <button class="btn btn-primary">GitHub</button> -->
+                    <!-- <button class="btn btn-outline">My resume</button> -->
+                </div>
+
+                 <div class="hero-skills">
+                    <span class="typing-text">I build websites with</span>
+                    <span id="array-item">HTML</span>
+                    <span class="typing-cursor">|</span>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <div class="hero-image-container">
+                    <div class="hero-image-bg">
+                        <img src="image/kachi porfolio pics.jpg" alt="Kachi" class="hero-img">
+                    </div>
+                    <div class="hero-decoration-1"></div>
+                    <div class="hero-decoration-2"></div>
+                </div>
+            </div>
+
+            <div class="scroll-indicator">
+                <svg class="scroll-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="6,9 12,15 18,9"></polyline>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <h2 class="section-title">About me</h2>
+                    <p class="about-text">
+                       Nnaji Onyedikachi Miracle is a highly motivated and detail-oriented web developer with a passion for building innovative and user-friendly digital solutions. Skilled in HTML, CSS, JavaScript, React, with a strong foundation in  front-end development. Dedicated to staying up-to-date with the latest web development trends and technologies, with a focus on delivering high-quality, responsive, and scalable web applications that exceed client expectations. <br> <br>
+
+                       With years of experience in the industry, I posses a deep understanding of web development principle. My expertise spans across various industries[e-commerce, healthcare, finance, etc.]. 
+                    </p>
+                    
+                    <div class="stats-grid">
+                        <div class="stat">
+                            <div class="stat-number">50<span class="stat-suffix">+</span></div>
+                            <div class="stat-label">Completed Projects</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">95<span class="stat-suffix">%</span></div>
+                            <div class="stat-label">Client satisfaction</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">2<span class="stat-suffix">+</span></div>
+                            <div class="stat-label">Years of experience</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="services-grid">
+                         <h2 class="section-title">My Services</h2>
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect width="20" height="14" x="2" y="3" rx="2"/>
+                                    <line x1="8" x2="16" y1="21" y2="21"/>
+                                    <line x1="12" x2="12" y1="17" y2="21"/>
+                                </svg>
+                            </div>
+                            <div class="service-content">
+                                <h3 class="service-title">Website Development</h3>
+            
+                            </div>
+                        </div>
+            
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect width="20" height="8" x="2" y="2" rx="2" ry="2"/>
+                                    <rect width="20" height="8" x="2" y="14" rx="2" ry="2"/>
+                                    <line x1="6" x2="6.01" y1="6" y2="6"/>
+                                    <line x1="6" x2="6.01" y1="18" y2="18"/>
+                                </svg>
+                            </div>
+                            <div class="service-content">
+                                <h3 class="service-title">Website Hosting</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="projects-header">
+                <h2 class="section-title">Projects</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="projects-list">
+                <div class="project">
+                    <div class="project-content">
+                        <h3 class="project-title">Socialmedia Dashboard</h3>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <p class="project-description">I developed a dynamic web page utilizing CSS Grid, showcasing my expertise in creating responsive and adaptable layouts. This project features a color theme switcher, built using HTML, CSS, and JavaScript, allowing users to seamlessly toggle between different themes.</p>
+                        
+                        
+                        <div class="project-buttons">
+                            <button class="btn btn-primary">
+                                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="m7 7 10 10-5 5V2l5 5Z"/>
+                                </svg>
+                                View Github
+                            </button>
+                           <a href="https://kachitechboss.github.io/Socialmedia-Dashboard/" target="_blank" class="btn btn-outline">View project</a>
+                        </div>
+                    </div>
+                    
+                    <div class="project-image">
+                        <img src="image/social media dashboard.webp" alt="Socialmedia Dashboard">
+                    </div>
+                </div>
+
+                <div class="project project-reverse">
+                    <div class="project-content">
+                        <h3 class="project-title">Product List</h3>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">JSON Data</span>
+                
+                        </div>
+                        <p class="project-description">Developed a web application that showcases my expertise in updating the UI dynamically based on user actions. By utilizing a JSON data file, I populated the DOM with dynamic content and implemented interactive elements that update multiple sections of the UI in real-time. The application has key features like dynamic UI updates based on user interactions, JSON data integration for populating the DOM and responsive design that adapts to various screen sizes and devices.</p>
+                        
+                        <div class="project-buttons">
+                            <button class="btn btn-primary">
+                                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="m7 7 10 10-5 5V2l5 5Z"/>
+                                </svg>
+                                View Github
+                            </button>
+                            <button class="btn btn-outline">View project</button>
+                        </div>
+                    </div>
+                    
+                    <div class="project-image">
+                        <img src="image/product-list pics.webp" alt="Product List">
+                    </div>
+                </div>
+
+                <div class="project">
+                    <div class="project-content">
+                        <h3 class="project-title">Flyo Dark Theme</h3>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <p class="project-description">Built with HTML, CSS, and JS, this project showcases my front-end skills with responsive design and dynamic layouts using Flexbox and Grid.</p>
+                        
+                        
+                        <div class="project-buttons">
+                            <button class="btn btn-primary">
+                                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="m7 7 10 10-5 5V2l5 5Z"/>
+                                </svg>
+                                View Github
+                            </button>
+                            <button class="btn btn-outline">View project</button>
+                        </div>
+                    </div>
+                    
+                    <div class="project-image">
+                        <img src="image/flyo pics.webp" alt="Flyo Dark Theme">
+                    </div>
+                </div>
+
+                <div class="project project-reverse">
+                    <div class="project-content">
+                        <h3 class="project-title">Time Tracking Dashboard</h3>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">JSON Data</span>
+                        </div>
+                        <p class="project-description">
+I developed a responsive web page utilizing CSS Grid, showcasing my expertise in creating dynamic and data-driven layouts. This project features integration with a JSON data file, allowing me to practice working with real-world data and build a more complex and interactive interface. It involves  interactive elements that enhance user experience.
+.</p>
+                        
+                        <div class="project-buttons">
+                            <button class="btn btn-primary">
+                                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="m7 7 10 10-5 5V2l5 5Z"/>
+                                </svg>
+                                View Github
+                            </button>
+                            <button class="btn btn-outline">View project</button>
+                        </div>
+                    </div>
+                    
+                    <div class="project-image">
+                        <img src="image/time dasboaerd pics.webp" alt="Time Tracking Dashboard">
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-content">
+                        <h3 class="project-title">Huddle Landing Page</h3>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                
+                        </div>
+                        <p class="project-description">I designed and developed a responsive web page, showcasing my expertise in crafting visually appealing and user-friendly interfaces. This project highlights my skills in HTML, CSS and Responsive design principles.</p>
+                        
+                        
+                        <div class="project-buttons">
+                            <button class="btn btn-primary">
+                                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="m7 7 10 10-5 5V2l5 5Z"/>
+                                </svg>
+                                View Github
+                            </button>
+                            <button class="btn btn-outline">View project</button>
+                        </div>
+                    </div>
+                    
+                    <div class="project-image">
+                        <img src="image/huddle pic.webp" alt="Huddle Landing Page">
+                    </div>
+                </div>
+                <div class="project project-reverse">
+                    <div class="project-content">
+                        <h3 class="project-title">Clipboard page</h3>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                        </div>
+                        <p class="project-description">Designed and developed a visually appealing landing page, showcasing my expertise in HTML, CSS, and responsive design. This project features a dynamic layout that adapts seamlessly to various screen sizes and devices, engaging hover states that enhance user experience, clean, efficient, and well-organized code.</p>
+                        
+                        <div class="project-buttons">
+                            <button class="btn btn-primary">
+                                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="m7 7 10 10-5 5V2l5 5Z"/>
+                                </svg>
+                                View Github
+                            </button>
+                            <button class="btn btn-outline">View project</button>
+                        </div>
+                    </div>
+                    
+                    <div class="project-image">
+                        <img src="image/clip pic.webp" alt="Clipboard page">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="
+    testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Testimonial</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="testimonial-image">
+                           <img src="image/LOGOOOO.png" alt="Kachi" class="testimonial-img">
+                           <h3>Codemantix Collective</h3>
+                        </div>
+                        
+                        <p class="testimonial-text">"As the CEO of Codemantix Collective, I am thrilled to endorse Nnaji Onyedikachi Miracle, an exceptionally talented frontend developer I’ve had the privilege of mentoring. Nnaji’s mastery of HTML, CSS, and JavaScript is unparalleled, enabling him to craft responsive, pixel-perfect user interfaces that blend stunning visuals with seamless functionality. His ability to transform complex client requirements into intuitive, high-performance web applications showcases his technical prowess and keen eye for user experience optimization. <br> <br>
+                        Nnaji’s problem-solving skills and adaptability set him apart. He consistently delivers clean, effi cient, and maintainable code under tight deadlines, ensuring cross-browser compatibility and outstanding results. His collaborative spirit shines through in his effective communication with designers, developers, and stakeholders, making him a vital asset to any team. Nnaji’s proactive approach often leads to innovative solutions that enhance project functionality and client satisfaction. <br> <br>
+                     Having guided many developers, I can confi dently say Nnaji is among the elite. His dedication, attention to detail, and passion for frontend development make him a top choice for any client seeking exceptional web solutions. For further details about Nnaji’s contributions, feel free to contact me at codemantixcollective@gmail.com." <br> <br>
+                       Okechukwu Victor
+                      CEO, Codemantix Collective.</p>
+                    </div>
+                   
+                </div>
+            
+        </div>
+
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-form-section">
+                    <div class="contact-header">
+                        <h2 class="contact-title">
+                            Have a project?<br>
+                            Let's talk!
+                        </h2>
+                    </div>
+                  <form id="contact-form" class="contact-form" action="https://formspree.io/f/mvgrgrpp" method="POST">
+                      <div class="form-group">
+                          <label for="name" class="form-label">Name</label>
+                          <input type="text" id="name" name="name" class="form-input" required>
+                      </div>
+                        <div class="form-group">
+                           <label for="email" class="form-label">Email</label>
+                           <input type="email" id="email" name="email" class="form-input" required>
+                       </div>
+                       <div class="form-group">
+                           <label for="message" class="form-label">Message</label>
+                           <textarea id="message" name="message" rows="5" class="form-textarea" required></textarea>
+                       </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                   </form>
+                </div>
+                <div class="Lets- connect-section">
+                     <h2 class="contact-title">
+                        Let's Work <br> Together<span class="text-orange">.</span>
+                    </h2>
+                    <p class="contact-text">
+                        I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision. Whether you have a question or just want to say hi, feel free to reach out!
+                    </p>
+                    <div class="contact-links">
+                      <a href="tel:+2348057032993" class="social-link" title="Call">
+                              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"            stroke-width="2" width="24" height="24">
+                               <path d="M22 16.92v3a2 2 0 0 1-2.18 2A19.72 19.72 0 0 1 3.08 5.18 2 2 0 0 1 5 3h3a2 2 0 0 1 2 1.72c.13 1.05.37 2.06.72 3a2 2 0 0 1-.45 2.11l-1.27 1.27a16 16 0 0 0 6.29 6.29l1.27-1.27a2 2 0 0 1 2.11-.45c.94.35 1.95.59 3 .72A2 2 0 0 1 22 16.92z"/>
+                            </svg> 
+                        </a>
+                        <p>+2348057032993</p> 
+                    </div>
+                    <div class="contact-links">
+                        <a href="mailto:onyedikannaji7@gmail.com" class="social-link" title="Email">
+                           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"    stroke-width="2" width="24" height="24">
+                            <rect x="2" y="4" width="20" height="16" rx="2"/>
+                          <polyline points="22,6 12,13 2,6"/>
+                         </svg>
+                        </a>
+                        <p>onyedikannaji7@gmail.com</p>
+                    </div>
+                    <div class="contact-links">
+                        <span class="social-link" title="Location">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="24" height="24">
+                        <path d="M21 10.5c0 7.5-9 12-9 12s-9-4.5-9-12a9 9 0 1 1 18 0z"/>
+                        <circle cx="12" cy="10.5" r="3"/>
+                        </svg>
+                       </span>
+                     <p>Nigeria</p>
+
+
+                    </div>
+            </div>
+        </div>
+    </section>
+    <div class="contact-info">
+                <div class="contact-profile">
+                    <h3 class="name">Miracle</h3>
+                    <p class="contact-tagline">
+                        Bringing your ideas to life with clean, modern web solutions
+                    </p>
+                </div>
+                
+                <div class="social-links">
+                   <a href="tel:+2348057032993" class="social-link">
+                       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2A19.72 19.72 0 0 1 3.08 5.18 2 2 0 0 1 5 3h3a2 2 0 0 1 2 1.72c.13 1.05.37 2.06.72 3a2 2 0 0 1-.45 2.11l-1.27 1.27a16 16 0 0 0 6.29 6.29l1.27-1.27a2 2 0 0 1 2.11-.45c.94.35 1.95.59 3 .72A2 2 0 0 1 22 16.92z"/>
+                        </svg>
+                    </a>
+                    <a href="https://github.com/KachiTechboss" class="social-link">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                        </svg>
+                    </a>
+                    <a href="http://www.linkedin.com/in/onyedikachi-miracle-nnaji-9187431b5" class="social-link">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                            <rect width="4" height="12" x="2" y="9"/>
+                            <circle cx="4" cy="4" r="2"/>
+                        </svg>
+                    </a>
+                </div>
+                <footer class="footer">
+                    <p>©Copyright 2025 Miracle. All rights reserved.</p>
+                </footer>
+    </div>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast hidden">
+        <div class="toast-content">
+            <div class="toast-title">Message sent!</div>
+            <div class="toast-description">Thank you for your message. I'll get back to you soon.</div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
