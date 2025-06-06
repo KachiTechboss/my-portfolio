@@ -342,7 +342,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 // Initialize typing animation when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
-    const elements = document.querySelectorAll('.service-card, .project, .stat,');
+     const elements = document.querySelectorAll('.service-card, .project, .stat');  
     elements.forEach(element => {
         element.style.opacity = '0';
         element.style.transform = 'translateY(20px)';
