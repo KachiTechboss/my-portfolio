@@ -352,18 +352,18 @@ document.addEventListener('DOMContentLoaded', () => {
     // Start typing animation
     initTypingAnimation();
 });
-document.addEventListener('DOMContentLoaded', function () {
-    const testimonialCards = document.querySelectorAll('.testimonial-card');
+// document.addEventListener('DOMContentLoaded', function () {
+//     const testimonialCards = document.querySelectorAll('.testimonial-card');
 
-    function revealTestimonials() {
-        testimonialCards.forEach(card => {
-            const rect = card.getBoundingClientRect();
-            if (rect.top < window.innerHeight - 100) {
-                card.classList.add('visible');
-            }
-        });
-    }
+//     function revealTestimonials() {
+//         testimonialCards.forEach(card => {
+//             const rect = card.getBoundingClientRect();
+//             if (rect.top < window.innerHeight - 100) {
+//                 card.classList.add('visible');
+//             }
+//         });
+//     }
 
-    window.addEventListener('scroll', revealTestimonials);
-    revealTestimonials(); // Run on load
-});
+//     window.addEventListener('scroll', revealTestimonials);
+//     revealTestimonials(); // Run on load
+// });
