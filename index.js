@@ -282,8 +282,8 @@ projectButtons.forEach(button => {
                 case 'Landlord Properties':
                     githubUrl = 'https://github.com/KachiTechboss/real-estate-demo-site';
                     break;
-                    case 'SpineCare Dental Page':
-                    githubUrlUrl = 'https://github.com/KachiTechboss/SpineCare-Dental-Clinic/';
+                case 'SpineCare Dental Page':
+                    githubUrl = 'https://github.com/KachiTechboss/SpineCare-Dental-Clinic';
                     break;
             }
             
